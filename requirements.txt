@@ -1,0 +1,10 @@
+einops==0.8.0
+fvcore==0.1.5.post20221221
+matplotlib==3.8.4
+numpy==2.1.1
+pandas==2.2.3
+Pillow==10.4.0
+scikit_learn==1.4.1.post1
+seaborn==0.13.2
+torch==2.0.1
+torchvision==0.15.2
