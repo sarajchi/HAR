@@ -14,7 +14,7 @@ This script performs IMU feature extraction and generates the file All_IMU_Featu
 
 The dataset is already included in the repository, so running this script is optional.
 
-**2. KNN_IMU_Results.py**
+**2. KNN_IMU_Training_Evaluation.py**
 
 This script executes the KNN (IMU) model and produces the classification report, confusion matrix, and other evaluation outputs.
 
