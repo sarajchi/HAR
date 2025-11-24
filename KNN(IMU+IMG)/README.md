@@ -6,6 +6,11 @@ The figure below illustrates the IMU feature extraction procedure.
 
 <img width="657" height="367" alt="Untitled" src="https://github.com/user-attachments/assets/303b1bb4-e21a-47a6-aadb-533d036213da" />
 
+# KNN IMG Feature Extraction
+The figure below illustrates the IMG feature extraction procedure.
+
+<img width="644" height="367" alt="Fig4_Feature_IMG" src="https://github.com/user-attachments/assets/1f05e9de-344a-47fe-9ad7-65701baafc0c" />
+
 # Start
 
 **1. Feature_Extraction_IMU.py**
