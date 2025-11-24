@@ -1,5 +1,5 @@
-# KNN(IMU) Offline
-This folder contains the codebase and outputs associated with the offline KNN (IMU) model.
+# KNN(IMU+IMG) Offline
+This folder contains the codebase and outputs associated with the offline KNN (IMU+IMG) model.
 
 # KNN IMU Feature Extraction
 The figure below illustrates the IMU feature extraction procedure.
