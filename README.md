@@ -7,7 +7,7 @@ https://drive.google.com/file/d/1tn91HX9y28Xy6x3cmq3V3b6SHgiwPRpx/view?usp=shari
 # Sliding Window
 A sliding window of length 10 is used for Video and IMU data. They move forward in both the Video stream and the IMU data stream to ensure that the data fed into the model is synchronised and maintains the same length.
 
-<img width="668" height="375" alt="Fig 3 Sliding W" src="https://github.com/user-attachments/assets/0ce4959a-5cae-479d-b098-bc8ed2ad9e7b" />
+<img width="667" height="375" alt="Fig 3 Sliding Window" src="https://github.com/user-attachments/assets/f8a93d64-2a7b-4032-85d7-9aa7e2742a2a" />
 
 # Model
 A new multimodal human action recognition model is proposed, which uses MoVinet to process the video data and LSTM to extract features from the IMU data, and finally fuses the above two features to classify the three actions of grasping, walking and placing during the process of carrying a box.
