@@ -1,16 +1,12 @@
 # KNN(IMU) Offline
 This folder contains the KNN(IMU) codes and outcomes. 
 
-# KNN IMU Feature Extraction
 
+# KNN IMU Feature Extraction
 The following image shows the IMU feature extraction technique.
 
 <img width="657" height="367" alt="Untitled" src="https://github.com/user-attachments/assets/303b1bb4-e21a-47a6-aadb-533d036213da" />
 
-
-
-
-This repository is a multimodal human action recognise algorithm based on MoViNet and LSTM. 
 # Dataset
 The dataset for Human Action Recognition with IMUs and a Camera is provided at the following link:
 https://drive.google.com/file/d/1tn91HX9y28Xy6x3cmq3V3b6SHgiwPRpx/view?usp=sharing
