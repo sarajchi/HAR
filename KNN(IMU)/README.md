@@ -24,6 +24,10 @@ A new multimodal human action recognition model is proposed, which uses MoVinet 
 A video demonstrating the study is available at the following link: https://youtu.be/PU3ySZ0spoI.
 
 # Start
-  pip install -r requirements.txt
+  
+  RUN
+  "1. Feature Extraction_IMU.py": This Python code is optional and presents the "All_IMU_Features.csv", which is already provided in the repository.
+  "2. KNN_IMU_Results.py": This Python code presents the outcomes of the KNN(IMU) model, including the Confusion Matrix, 
+  pip install -r requirements.tx
   
   python train_eval.py
