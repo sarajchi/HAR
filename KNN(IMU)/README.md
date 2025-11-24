@@ -4,7 +4,9 @@ This folder contains the KNN(IMU) codes and outcomes.
 #KNN IMU Feature Extraction 
 The following image shows the IMU feature extraction technique.
 
-<img width="658" height="367" alt="IMU" src="https://github.com/user-attachments/assets/bed7e6d2-e03e-440c-9029-ddd365f76f89" />
+<img width="657" height="367" alt="Untitled" src="https://github.com/user-attachments/assets/303b1bb4-e21a-47a6-aadb-533d036213da" />
+
+
 
 
 This repository is a multimodal human action recognise algorithm based on MoViNet and LSTM. 
