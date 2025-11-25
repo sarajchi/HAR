@@ -16,6 +16,7 @@ Captures live IMU data from two x-IMU3 sensors.
 It streams accelerometer/gyroscope values, formats them into time windows, and saves each window into Temporary_Data/ for real-time processing.
 
 **3_KNN_IMU_Real-Time.py**
+
 Performs real-time action recognition using the trained KNN model.
 The script monitors the Temporary_Data/ folder, loads each newly created IMU window from 2_GetData.py, extracts features, and outputs the classification result.
 
