@@ -3,6 +3,7 @@
 **1_KNN_IMU_PrerecordedData.py**
 
 Runs KNN predictions using the pre-recorded IMU dataset stored in Temporary_Data/.
+
 This script is fully offline and does not require any physical IMUs.
 It loads the trained KNN model, extracts features from each CSV, and reports the predicted action.
 
