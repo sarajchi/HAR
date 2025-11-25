@@ -1,21 +1,23 @@
-# KNN(IMU) Offline
-This folder contains the codebase and outputs associated with the offline KNN (IMU) model.
-
-# KNN IMU Feature Extraction
-The figure below illustrates the IMU feature extraction procedure.
-
-<img width="657" height="367" alt="Untitled" src="https://github.com/user-attachments/assets/303b1bb4-e21a-47a6-aadb-533d036213da" />
+# KNN(IMU+IMG) Real-Time
+This folder contains the codebase and outputs associated with the Real-Time KNN(IMU+IMG) model.
 
 # Start
 
-**1. Feature_Extraction_IMU.py**
+**1_KNN_IMU_IMG_PrerecordedData.py**
 
-This script performs IMU feature extraction and generates the file All_IMU_Features.csv.
+Runs KNN predictions using the pre-recorded IMU dataset stored in Temporary_Data/.
 
-The dataset is already included in the repository, so running this script is optional.
+This script is fully offline and does not require any physical IMUs or a Camera.
+It loads the trained KNN model, extracts features from each CSV, and reports the predicted action.
 
-**2. KNN_IMU_Training_Evaluation.py**
+**2_GetData.py**
 
-This script executes the KNN (IMU) model and produces the classification report, confusion matrix, and other evaluation outputs.
+Captures live IMU and Vision data from two x-IMU3 sensors and an egocentric camera.
+It streams accelerometer/gyroscope values and camera frames, formats them into time windows, and saves each window into Temporary_Data/ for real-time processing.
 
-The corresponding results are already provided in the repository.
+**3_KNN_IMU_IMG_Real-Time.py**
+
+Performs real-time action recognition using the trained KNN model.
+The script monitors the Temporary_Data/ folder, loads each newly created IMU window from 2_GetData.py, extracts features, and outputs the classification result.
+
+This script must run simultaneously with 2_GetData.py, because it depends on the live data windows that 2_GetData.py produces.
